@@ -1,0 +1,33 @@
+{
+  "name": "spring-boot-seed-frontend",
+  "version": "0.1.0",
+  "description": "Spring Boot Seed",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.prod.js --progress",
+    "start": "webpack-dev-server --config webpack.local.js --colors --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "css-loader": "1.0.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "ngtemplate-loader": "2.0.1",
+    "node-sass": "4.9.2",
+    "sass-loader": "7.0.3",
+    "style-loader": "0.21.0",
+    "ts-loader": "4.1.0",
+    "typescript": "2.8.1",
+    "webpack": "4.5.0",
+    "webpack-cli": "2.0.13",
+    "webpack-dev-server": "3.1.1"
+  }
+}

@@ -1,0 +1,1 @@
+-- Spring Boot runs this on startup. Can optionally suffix with SQL dialect
